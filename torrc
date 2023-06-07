@@ -1,0 +1,7 @@
+SocksPort 9050 # Default: Bind to localhost:9050 for local connections.
+RelayBandwidthRate 10000 KB  # Throttle traffic to 100KB/s (800Kbps)
+RelayBandwidthBurst 20000 KB # But allow bursts up to 200KB/s (1600Kbps)
+AccountingMax 400 GB
+AccountingStart day 00:00
+AccountingStart month 3 15:00
+

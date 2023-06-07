@@ -21,6 +21,9 @@ WORKDIR /app
 COPY --from=publish /app/publish .
 
 RUN apt update && apt upgrade -y && apt install tor -y
+COPY torrc /etc/tor/torrc
+RUN sed -i -e 's/\r$//' /etc/tor/torrc
+
 
 EXPOSE 80
 EXPOSE 443
