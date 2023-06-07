@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "amjer3N9c2mrsC2N95VpjZ28oVdlCzUJ6wvCkiJUA0U=",
+  "Source": "TorServer",
+  "BasePath": "_content/TorServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
